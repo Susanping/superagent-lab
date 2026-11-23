@@ -178,7 +178,9 @@ export default function App() {
         <Button icon={<DeleteOutlined />} disabled={selectedRowKeys.length === 0}>
           批量删除
         </Button>
-        <Button icon={<UploadOutlined />}>批量导入</Button>
+        <Button icon={<UploadOutlined />}>
+          <span className="import-button-label">批量导入</span>
+        </Button>
         <Button icon={<DownloadOutlined />}>批量导出（{totalCaseCount}）</Button>
         <Button type="primary" icon={<PlusOutlined />}>
           新建 Case

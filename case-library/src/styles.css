@@ -58,6 +58,10 @@ body {
   margin-top: 12px;
 }
 
+.import-button-label {
+  color: #faad14;
+}
+
 .table-card {
   margin-top: 16px;
   overflow: hidden;
